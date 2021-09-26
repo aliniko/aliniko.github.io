@@ -3,8 +3,13 @@
 //--//-->   STYLES GENERALES
 ======================================*/
 
+:root {
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+}
+
 body {
-  background-color: #f5f5f5;
+  background-color: var(--primary-color);
   font-family: GalanoGrotesqueAlt,Helvetica Neue,Helvetica,Arial,sans-serif;
   color: #4e4e4e;
 }
@@ -15,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1e1e1e;
+  color: #var(--secondary-color);
 }
 .fixed-top{
   /* top: -6px; */
@@ -28,8 +33,20 @@ h6 {
   float: right;
 }
 a {
-  color: #1e1e1e;
+  color: var(--secondary-color);
   transition: all 0.5s ease-in-out;
+}
+
+/* dark theme color */
+
+#icon-dark {
+  width: 30px;
+  cursor: pointer;
+}
+
+nav #navbarDefault {
+  flex: 1;
+  text-align: right;
 }
 
 a:hover {
@@ -124,6 +141,7 @@ a:hover {
   vertical-align: middle;
 }
 
+
 /*--/ Sections /--*/
 
 .sect-4 {
@@ -142,7 +160,7 @@ a:hover {
 
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
+  color: var(--secondary-color);
   font-size: 1.1rem;
 }
 
@@ -770,7 +788,7 @@ a:hover {
 
 .service-box .service-ico {
   margin-bottom: 1rem;
-  color: #1e1e1e;
+  color: var(--secondary-color);
 }
 
 .service-box .ico-circle {
@@ -1012,7 +1030,7 @@ a:hover {
 }
 
 .blog-wrapper .post-meta ul span {
-  color: #1e1e1e;
+  color: var(--secondary-color);
 }
 
 .blog-wrapper .blockquote {
@@ -1052,7 +1070,7 @@ a:hover {
 }
 
 .box-comments .list-comments span {
-  color: #1e1e1e;
+  color: var(--secondary-color);
   font-style: italic;
 }
 
