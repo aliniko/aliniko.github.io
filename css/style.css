@@ -1374,4 +1374,15 @@ footer a {
     width: 320px;
     height: 280px;
   }
+
+  
+}
+
+@media (min-width: 768px){
+
+#script-hidden{
+  display: none;
+}
+
+
 }

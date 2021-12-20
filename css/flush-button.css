@@ -117,3 +117,28 @@
   }
  
  }
+
+ @media (max-width: 768px) {
+  .flush-button{
+    font-size: 12px;
+    padding: 3px 4px 1px 2px;
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  p {
+    display: block;
+    margin-block-start: .1em;
+    margin-block-end: .1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.nav-text{
+  display: none;
+}
+
+.nav-phone{
+  font: 16px;
+}
+ }
